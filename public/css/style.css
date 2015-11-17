@@ -47,7 +47,7 @@ body a:hover{
 	margin:0 10px;
 }
 .logo-right ul li a{
-	color:#f9a32d;
+	color:#4aabef;
 	font-size:14px;
 	letter-spacing:1px;
 	text-decoration:none;
@@ -56,7 +56,7 @@ body a:hover{
 }
 .logo-right ul li a:hover,.logo-right ul li.cap a{
 	padding:2.8em 0em 0;
-	border-top:3px solid #f9a32d;
+	border-top:3px solid #4aabef;
 	text-decoration:none;
 }
 /*-- //header --*/
@@ -80,7 +80,7 @@ body a:hover{
 }
 .banner-info a{
 	padding:10px 30px;
-	background:#fb752d;
+	background:#4aabef;
 	color:#fff;
 	font-size:18px;
 	border-bottom:3px solid #377ca1;
@@ -99,7 +99,7 @@ body a:hover{
 }
 .banner-info a:hover{
 	text-decoration:none;
-	color:#fb752d;
+	color:#4aabef;
 }
 /*-- //banner --*/
 /* Bounce To Right */
@@ -447,7 +447,7 @@ ul.social-slide li i.mac{
 }
 .us a{
 	padding:10px 30px;
-	background:#fb752d;
+	background:#4aabef;
 	color:#fff;
 	font-size:18px;
 	border-bottom:3px solid #377ca1;
@@ -466,7 +466,7 @@ ul.social-slide li i.mac{
 }
 .us a:hover{
 	text-decoration:none;
-	color:#fb752d;
+	color:#4aabef;
 }
 /*-- //banner-bottom --*/
 /*-- history --*/
@@ -474,7 +474,7 @@ ul.social-slide li i.mac{
 	padding:6em 0;
 }
 .history h3{
-	color:#fcb759;
+	color:#4aabef;
 	font-size:40px;
 	margin:0;
 	text-align:center;
@@ -564,7 +564,7 @@ ul.social-slide li i.mac{
 	margin:1em 0 0 2em;
 }
 .history-grid-right h4{
-	color:#fa7c28;
+	color:#4aabef;
 	margin:0 0 .3em;
 	font-size:18px;
 	font-weight:500;
@@ -607,7 +607,7 @@ ul.social-slide li i.mac{
 	padding:6em 0;
 }
 .about h3{
-	color:#fcb759;
+	color:#4aabef;
 	font-size:40px;
 	margin:0 0 1em;
 	text-align:center;
@@ -655,7 +655,7 @@ p.unique{
 .about-grid h2{
 	font-size:1.8em;
 	margin:0 0 .5em;
-	color:#fa7c28;
+	color:#4aabef;
 	font-weight:600;
 }
 .progress-bar {
@@ -689,7 +689,7 @@ h2.community{
 	position:relative;
 }
 .mission-grid h4{
-	color: #fa7c28;
+	color: #4aabef;
 	margin: 0 0 .3em;
 	font-size: 18px;
 	font-weight: 600;
@@ -715,7 +715,7 @@ h2.community{
 	margin:1.5em 0 0;
 }
 .vission-grid h4{
-	color: #fa7c28;
+	color: #4aabef;
 	margin: 0 0 .3em;
 	font-size: 17px;
 	font-weight: 600;
@@ -725,7 +725,7 @@ h2.community{
 }
 .more a{
 	padding: 8px 20px;
-	background: #fb752d;
+	background: #4aabef;
 	color: #fff;
 	font-size: 14px;
 	border-bottom: 3px solid #377ca1;
@@ -744,7 +744,7 @@ h2.community{
 }
 .more a:hover {
   text-decoration: none;
-  color: #fb752d;
+  color: #4aabef;
 }
 /*-- //about --*/
 /*-- activities --*/
@@ -752,7 +752,7 @@ h2.community{
 	padding:6em 0;
 }
 .activities h3 {
-  color: #fcb759;
+  color: #4aabef;
   font-size: 40px;
   margin: 0;
   text-align: center;
@@ -824,7 +824,7 @@ h2.community{
 	width: 73%;
 }
 .activities-grid-right h4{
-	color: #fa7c28;
+	color: #4aabef;
 	margin: 0 0 .3em;
 	font-size: 18px;
 	font-weight: 600;
@@ -841,7 +841,7 @@ h2.community{
 .history-faq-grid h4{
 	font-size: 1.8em;
 	margin: 0 0 .5em;
-	color: #fa7c28;
+	color: #4aabef;
 	font-weight: 600;
 }
 /******** SAP ************/
@@ -1087,7 +1087,7 @@ p.para1{
 	padding:6em 0;
 }
 .team h3{
-	color: #fcb759;
+	color: #4aabef;
 	font-size: 40px;
 	margin: 0;
 	text-align: center;
@@ -1105,7 +1105,7 @@ p.para1{
 	padding:0 !important;
 }
 .team-grid h4{
-	color:#fa7c28;
+	color:#4aabef;
 	font-size: 25px;
 	margin:.5em 0 .7em;
 	font-weight: 600;
@@ -1245,7 +1245,7 @@ p.tortor{
 	padding:6em 0;
 }
 .news h3{
-	color: #fcb759;
+	color: #4aabef;
 	font-size: 40px;
 	margin: 0;
 	text-align: center;
@@ -1293,7 +1293,7 @@ p.children{
 }
 .more1 a{
 	padding: 8px 20px;
-	background: #fb752d;
+	background: #4aabef;
 	color: #fff;
 	font-size: 14px;
 	border-bottom: 3px solid #377ca1;
@@ -1312,7 +1312,7 @@ p.children{
 }
 .more1 a:hover {
   text-decoration: none;
-  color: #fb752d;
+  color: #4aabef;
 }
 .more1 {
   margin: 1em 0 1.5em;
@@ -1401,7 +1401,7 @@ img.steel{
 .contact-info h4{
 	font-size:25px;
 	margin:0;
-	color:#fa7c28;
+	color:#4aabef;
 }
 .contact-info p{
 	font-size: 15px;
@@ -1439,7 +1439,7 @@ img.steel{
 	border:none;
 	padding: 8px 0px;
 	width:30%;
-	background: #fb752d;
+	background: #4aabef;
 	color: #fff;
 	font-size: 15px;
 	border-bottom: 3px solid #377ca1;
@@ -1457,7 +1457,7 @@ img.steel{
 }
 .contact-info input[type="submit"]:hover{
 	background:#fff;
-	color:#fb752d;
+	color:#4aabef;
 }
 /*-- //news --*/
 /*-- our-childrens --*/
@@ -1466,7 +1466,7 @@ img.steel{
 	background:#f5f5f5;
 }
 .our-childrens h3{
-	color: #fcb759;
+	color: #4aabef;
 	font-size: 40px;
 	margin: 0;
 	text-align: center;
@@ -1643,10 +1643,11 @@ img.steel{
 .footer-grid-left {
   float: left;
   margin-left: 2em;
+  margin-top: 2em;
 }
 .footer-grid-center{
 	float:left;
-	margin: 2em 0 0 20em;
+	margin: 4em 0 0 0;
 }
 .footer-grid-center p{
 	font-size:16px;
@@ -1662,7 +1663,8 @@ img.steel{
 }
 .footer-grid-right{
 	float:right;
-	margin-right: 2em;
+	margin-right: 3em;
+	margin-top: 2em;
 }
 .footer-grid-right ul{
 	padding:1em 0 0;
@@ -1672,45 +1674,24 @@ img.steel{
 	display:inline-block;
 	margin:0 5px;
 }
-.footer-grid-right ul li a.f{
-	background: url(../images/img-sp.png) no-repeat -243px -12px;
-	display:block;
-	width: 33px;
-	height: 33px;
+
+.footer-grid-right ul li a.qq{
+	background: url(../images/qq.png);
+	display: block;
+	width: 32px;
+	height: 32px;
 }
-.footer-grid-right ul li a.f:hover{
-	background: url(../images/img-sp.png) no-repeat -314px -12px;
-	display:block;
+.footer-grid-right ul li a.weibo{
+	background: url(../images/weibo.png);
+	display: block;
+	width: 32px;
+	height: 32px;
 }
-.footer-grid-right ul li a.t{
-	background: url(../images/img-sp.png) no-repeat -243px -57px;
-	display:block;
-	width: 33px;
-	height: 33px;
-}
-.footer-grid-right ul li a.t:hover{
-	background: url(../images/img-sp.png) no-repeat -314px -57px;
-	display:block;
-}
-.footer-grid-right ul li a.g{
-	background: url(../images/img-sp.png) no-repeat -243px -103px;
-	display:block;
-	width: 33px;
-	height: 33px;
-}
-.footer-grid-right ul li a.g:hover{
-	background: url(../images/img-sp.png) no-repeat -314px -103px;
-	display:block;
-}
-.footer-grid-right ul li a.i{
-	background: url(../images/img-sp.png) no-repeat -243px -153px;
-	display:block;
-	width: 33px;
-	height: 33px;
-}
-.footer-grid-right ul li a.i:hover{
-	background: url(../images/img-sp.png) no-repeat -314px -153px;
-	display:block;
+.footer-grid-right ul li a.renren{
+	background: url(../images/renren.png);
+	display: block;
+	width: 32px;
+	height: 32px;
 }
 /*-- //footer --*/
 /*-- wmuslider --*/
