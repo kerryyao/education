@@ -418,7 +418,6 @@ ul.social-slide li i.mac{
 }
 .forced{
 	float:left;
-	width:50%;
 }
 .forced p{
 	font-size:18px;
@@ -433,7 +432,7 @@ ul.social-slide li i.mac{
 .donate{
 	float:right;
 	margin-top: 3em;
-	width:50%;
+	
 }
 .Alor p{
 	font-size:18px;
@@ -1059,7 +1058,7 @@ p.para1{
 	border:none !important;
 }
 .caption h4{
-	font-size:24px;
+	font-size:18px;
 	margin:1em 0 2em;
 	color:#fff;
 }
@@ -1136,8 +1135,28 @@ p.founder{
 }
 .team-grid ul li{
 	display:inline-block;
+	margin: 0 5px;
 }
-.team-grid ul li a.facebook{
+.team-grid ul li a.qq{
+	background: url(../images/qq.png);
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.team-grid ul li a.weibo{
+	background: url(../images/weibo.png);
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.team-grid ul li a.renren{
+	background: url(../images/renren.png);
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+/*.team-grid ul li a.facebook{
 	background: url(../images/img-sp.png) no-repeat -243px -12px;
 	display:block;
 	width: 33px;
@@ -1176,7 +1195,7 @@ p.founder{
 .team-grid ul li a.in:hover,.team-grid:hover div a.in{
 	background: url(../images/img-sp.png) no-repeat -314px -153px;
 	display:block;
-}
+}*/
 .team-grid:hover div.pretium{
 	border:2px solid #45aed6;
 	border-top:none;
