@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Alor Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="../images/logo.png" alt=" " /></a>
+			</div>
+			<div class="logo-right">
+				<span class="menu"><img src="../images/menu.png" alt=" "/></span>
+					<ul class="nav1">
+						<li class="cap"><a href="/" class="act">首页</a></li>
+						<li><a href="#history" class="scroll">简介</a></li>
+						<li><a href="#about" class="scroll">关于我们</a></li>
+						<li><a href="#childrens" class="scroll">孩子们</a></li>
+						<li><a href="#team" class="scroll">教师团队</a></li>
+						<li><a href="#news" class="scroll">最新动态</a></li>
+						<li><a href="#contact" class="scroll">联系我们</a></li>
+					</ul>
+			</div>
+			<div class="clearfix"> </div>
+			<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: false,
+				        nav: true,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-info">
+							<h1>用爱倾听每一个孩子心底的声音</h1>
+							<a href="#" class="hvr-bounce-to-right read">更多</a>
+						</div>
+					</li>
+					<!-- <li>
+						<div class="banner-info">
+							<h1>WELCOME TO CHARITY WELFARE</h1>
+							<a href="#" class="hvr-bounce-to-right read">更多</a>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<h1>WELCOME TO BHUBON WELFARE</h1>
+							<a href="#" class="hvr-bounce-to-right read">更多</a>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+
+<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids col-md-8 col-md-offset-2">
+				<div class="forced">
+					<p>"教育的本质意味着：一棵树摇动一棵树，一朵云推动一朵云，一个灵魂唤醒一个灵魂。"</p>
+				</div>
+				<div class="donate">
+					<div class="Alor">
+						<p>–--雅斯贝尔斯</p>
+					</div>
+					<!-- <div class="us">
+						<a href="#" class="hvr-bounce-to-right read">捐赠我们</a>
+					</div> -->
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //banner-bottom -->
+<!-- history -->
+	<div id="history" class="history">
+		<div class="container">
+			<h3>简介</h3>
+			<p class="libero">随着经济的发展和人民群众接受高等教育要求的不断高涨，西方发达国家高等教育大众化的理念正在日益被人们所接受，并转化为政府的教育政策，中国高等教育面向社会精英阶层的传统正在成为历史。可以说，中国近代高等教育在经历了整整一个世纪的曲折之后，终于有了明确的、与世界高等教育发展同步的理念、目标与方向。</p>
+			<div class="history-grids">
+				<div class="col-md-6 history-grid">
+					<img class="one" src="images/demo1.jpg" alt=" " />
+				</div>
+				<div class="col-md-6 history-grid">
+					<p class="libero">
+					浙江万里学院是在一所具有50年办学历史的省属普通高校基础上进行管理模式和运行机制改革的新型高校，创新办学十五年，被教育专家作为“中国特色现代大学制度的范例性实践”。
+					学校地处宁波，占地1400余亩，建筑面积65万平方米，分设钱湖、回龙等校区。校园风景优美，教学设施完善，获省级“文明校园”、“平安校园”、“绿色学校”、“治安安全示范单位”等荣誉称号。学校为“国家硕士专业学位研究生教育试点单位”、“全国地方院校新闻传播学应用型人才培养试点单位”和“浙江省计算机专业应用型人才培养试点单位”。现拥有4个国家特色专业、1个国家级教学创新团队、1个教育部人才培养创业教育实验区、2门国家精品课程、2个省级科技创新团队、1个省重中之重学科、1个省哲学社会科学重点研究基地、5个省级重点学科、4个省级创新团队、1个省级创新教育实验区。9个省级重点专业、18门省级精品课程。承担教育部新世纪高等教育教学改革工程项目。
+					</p>
+					<!-- <div class="history-grid1">
+						<div class="history-grid-left">
+							<span> </span>
+						</div>
+						<div class="history-grid-right">
+							<h4>达卡分公司</h4>
+							<p>成立于2010</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left1">
+							<span> </span>
+						</div>
+						<div class="history-grid-right">
+							<h4>新东方</h4>
+							<p>成立于1993</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left2">
+							<span> </span>
+						</div>
+						<div class="history-grid-right">
+							<h4>学而思教育</h4>
+							<p>成立于2001</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left3">
+							<span> </span>
+						</div>
+						<div class="history-grid-right">
+							<h4>北大青鸟</h4>
+							<p>成立于1999</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div> -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //history -->
+<!-- lorum -->
+	<div class="lorum">
+		<div class="container">
+			<div class="lorum-info">
+				<h3><span>多蹲下来听孩子说话，你看到的将是—个纯真无暇的世界！</span></h3>
+			</div>
+		</div>
+	</div>
+<!-- //lorum -->
+<!-- about -->
+	<div id="about" class="about">
+		<div class="container">
+			<h3>关于我们</h3>
+			<div class="about-top-text">
+				<p>"我们相信在一个没有孩子的世界里生活在街头的世界"</p>
+			</div>
+			<p class="unique">过去45年来，我们在4多个地区工作，为青年提供实用，
+				动手技能，他们可以申请创业的努力和入门级的工作。
+				我们不相信提供手出局。我们的目标是提供可持续的技能
+				通过教育，可以在很长一段时间内使用。通过一个独特的
+				培训培训师模式，街头儿童提供有关的教育工作坊
+				在发展中国家的培训师和青年工人的商业技能。</p>
+			<div class="about-grids">
+				<div class="col-md-6 about-grid">
+					<h2>一个关于菠萝的故事</h2>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="about-grid-fig">
+						<img src="images/2.jpg" alt=" " />
+							<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+								<span> </span>
+							</a>
+							<!-- pop-up-box -->
+							<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+							<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+							<!--//pop-up-box -->
+							<div id="small-dialog" class="mfp-hide">
+								<iframe src="http://player.youku.com/embed/XODc5OTM5MTMy" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</div>
+							<script>
+								$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+								});
+																								
+								});
+							</script>
+					</div>
+				</div>
+				<div class="col-md-6 about-grid">
+					<h2 class="community"></h2>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="mission-vision">
+						<div class="mission-grid">
+							<h4>我们的使命:</h4>
+							<div class="mission">
+								<p>"让每个孩子做最好的自己"</p>
+							</div>
+						</div>
+						<div class="vission-grid">
+							<h4>我们的远景:</h4>
+							<div class="mission">
+								<p>"成为一流的学习、成长、交流服务提供者。"</p>
+							</div>
+						</div>
+						<div class="more">
+							<a href="#" class="hvr-bounce-to-right">更多</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- activities -->
+	<!-- <div id="activities" class="activities">
+		<div class="container">
+			<h3>OUR ACTIVITIES</h3>
+			<p class="libero">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				In lobortis, ante interdum vehicula pretium, dui enim porta lectus,
+				non euismod tortor ante eu libero. Aenean blandit luctus tortor vitae interdum.
+				Etiam egestas purus lorem, eget tempus odio placerat id. Integer eu gravida nibh.</p>
+			<div class="activities-grids">
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right">
+						<h4>Street Level</h4>
+						<p>At street level we strive to meet the immediate needs of children 
+						at risk on the streets and platforms of India today. We have created 
+						a number of ‘child friendly stations’ with the help and engagement 
+						of the people who work at them, who now look out for and help children 
+						alone and at risk.</p>
+					</div>
+					<div class="clearfix"> </div> -->
+				<!-- </div>
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left1">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right">
+						<h4>Community Level</h4>
+						<p>At community level we work to make children on the streets 
+						visible to society and to help people understand the issues that 
+						cause children to run away and that face them on the streets and 
+						on the platforms. We invest time and skills in preventative intervention, 
+						with the aim of creating ‘safety nets’ within communities to catch 
+						children who are at risk of running away before they do so.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left2">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right"> -->
+						<!-- <h4>Government Level</h4>
+						<p>At government level we work to persuade policy makers that 
+						children living on the streets should be higher on India’s 
+						political agenda and that government policies should provide greater 
+						protection and opportunity for them</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="history-faq-grids">
+				<div class="col-md-6 history-faq-grid">
+					<h4>Our History</h4>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div> -->
+					<!-- <div class="sap_tabs">	
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							  <ul class="resp-tabs-list">
+								  <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>2010</span></li>
+								  <li class="resp-tab-item grid2" aria-controls="tab_item-1" role="tab"><span>2011</span></li>
+								  <li class="resp-tab-item grid3" aria-controls="tab_item-2" role="tab"><span>2012</span></li>
+								  <li class="resp-tab-item grid5" aria-controls="tab_item-3" role="tab"><span>2014</span></li>
+								  <div class="clear"></div>
+							  </ul>				  	 
+								<div class="resp-tabs-container">
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
+													looking at its layout.</a></li>
+											<li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+												of letters readable English</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal  --><!-- distribution 
+												of letters readable English</a></li>
+											<li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
+													looking at its layout.</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
+													looking at its layout.</a></li>
+											<li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+												of letters readable English</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+												of letters readable English</a></li>
+											<li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
+													looking at its layout.</a></li>
+										  </ul>
+										</div> -->
+									<!-- </div>
+								</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-6 history-faq-grid">
+					<h4>Faq</h4>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="faq-info">
+						<div class="eiusmod">
+							<p class="para">Enim eiusmod high life accusamus?</p>
+							<p class="para1">Anim pariatur cliche reprehenderit, enim eiusmod 
+							high life accusamus terry richardson ad squid. 3 wolf moon officia 
+							aute, non cupidatat skateboard dolor brunch. Food truck quinoa 
+							nesciunt laborum.</p>
+						</div>
+						<div class="keffiyeh">
+							<p>Nihil anim keffiyeh helvetica?</p>
+						</div>
+						<div class="butcher">
+							<p>Vegan excepteur butcher vice lomo?</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div> -->
+ <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	 <script type="text/javascript">
+	// 	$(document).ready(function () {
+	// 		$('#horizontalTab').easyResponsiveTabs({
+	// 			type: 'default', //Types: default, vertical, accordion           
+	// 			width: 'auto', //auto or any width like 600px
+	// 			fit: true   // 100% fit in a container
+	// 		});
+	// 	});
+	// </script>
+<!-- //activities -->
+<!-- our-childrens -->
+	<div id="childrens" class="our-childrens">
+		<div class="container">
+			<h3>我们的孩子</h3>
+			<div class="our-childrens-grids">
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/3.jpeg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/3.jpeg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/4.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/5.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/6.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/6.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="our-childrens-grids">
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/7.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/7.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/8.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/8.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/9.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/9.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/10.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/10.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>吕习悦</h4>
+									<p>我是小米，大名叫吕习悦,
+										<span>希望交到更多的朋友。</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+<!-- //our-childrens -->	
+<!-- work -->
+	<div class="work">
+		<div class="container">
+			<h3>我们的教学流程</h3>
+			<div class="work-grids">
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>第一步：测评</h4>
+							<p>入学前必须对学生所补课程的学科基础进行正规的试卷测评，大致了解学生存在的问题，同时为代课教师的工作绩效评价提供依据</p>
+						</div>
+					</div>
+				  </div>
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step1">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>第二步：对接</h4>
+							<p>上第一次课前一天，学科老师向教导处提交《首次课教案》和《个性化辅导方案》，所在学科教研组长组织说课，不足之处及时修正</p>
+						</div>
+					</div>
+				  </div>
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step2">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>第三步：计划</h4>
+							<p>必须有具体的阶段测试安排，中间若有必要调整计划（例如要增加课时密度），必须重新拟定辅导计划并召开家长会，家长在《计划书》上签字确认后执行</p>
+						</div>
+					</div>
+				  </div>
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step3">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>第四步：过程</h4>
+							<p>任课老师每6次课组织一次月考，考试后要有质量分析报告，并以书面形式提交给学管处，学管处组织老师向家长反馈</p>
+						</div>
+					</div>
+				  </div>
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step4">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>第五步：回访</h4>
+							<p>学管处合理安排时间，保证每位学生的家长每周至少接到一次由管理层打来的回访电话</p>
+						</div>
+					</div>
+				</div>
+				  <div class="col-md-2 work-grid">
+					<div class="thumbnail">
+						<div class="first-step5">
+							<span> </span>
+						</div>
+						<div class="caption">
+							<h4>最后：家长会</h4>
+							<p>学管师主持——任课老师发言——家长发言——交流——学管师总结——记录——宣读记录的重点内容——散会——教学主管协商加课方案家长签字（时间不超过1小时）</p>
+						</div>
+					</div>
+				  </div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //work -->
+<!-- team -->
+	<div id="team" class="team">
+		<div class="container">
+			<h3>教师团队</h3>
+			<div class="team-grids">
+			  <div class="col-md-3 team-grid">
+				<div class="thumbnail team-grid-main">
+				  <img src="images/12.jpg" alt=" " />
+				  <div class="caption pretium">
+					<h4>令狐小天</h4>
+					<p class="founder">正高级教师</p>
+					<p>对待工作认真负责，善于沟通、协调有较强的组织能力与团队精神；活泼开朗、乐观上进、有爱心并善于施教并行；上进心强、勤于学习能不断提高自身的能力与综合素质。在未来的工作中，我将以充沛的精力，刻苦钻研的精神来努力工作，稳定地提高自己的工作能力，与公司同步发展。</p>
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="weibo"> </a></li>
+						<li><a href="#" class="renren"> </a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			   <div class="col-md-3 team-grid">
+					<div class="thumbnail team-grid-main">
+				  <img src="images/13.jpg" alt=" " />
+				  <div class="caption pretium">
+					<h4>欧阳瑾</h4>
+					<p class="founder">特级教师</p>
+					<p>熟练操作windows、office办公软件，熟悉interne资源。会auto cad photoshop 等软件；动手能力很强,在学校平时做实验时都可以很快地完成实验. 专业知识扎实，有积极的工作态度，能够独立工作，又极赋团队精神，同时具有良好的文化素质；赋有进取心，有良好的人员管理和沟通协调能力。</p>
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="weibo"> </a></li>
+						<li><a href="#" class="renren"> </a></li>
+					</ul>
+				  </div>
+				</div>
+			   </div>
+			    <div class="col-md-3 team-grid">
+					<div class="thumbnail team-grid-main">
+				  <img src="images/14.jpg" alt=" " />
+				  <div class="caption pretium">
+					<h4>叶良辰</h4>
+					<p class="founder">高级营养师</p>
+					<p>熟练操作word办公软件及设备， 对待工作认真负责，善于沟通、协调有较强的组织能力与团队精神；活泼开朗、乐观上进、有爱心并善于施教并行；上进心强、勤于学习能不断提高自身的能力与综合素质。在未来的工作中，我将以充沛的精力，刻苦钻研的精神来努力工作，稳定地提高自己的工作能力。</p>
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="weibo"> </a></li>
+						<li><a href="#" class="renren"> </a></li>
+					</ul>
+				  </div>
+				</div>
+			   </div>
+			    <div class="col-md-3 team-grid">
+					<div class="thumbnail team-grid-main">
+				  <img src="images/11.jpg" alt=" " />
+				  <div class="caption pretium">
+					<h4>金意涵</h4>
+					<p class="founder">王牌讲师</p>
+					<p>在4年的工作中，以谨慎的工作作风，认真积极的工作态度，细心完成本职工作。本人工作踏实，刻苦耐劳，如有幸被录用我将会竭尽全力为贵单位创造效益，以尽情体现自身能力和价值。 本人性格开朗、稳重、有活力，待人热情、真诚。工作认真负责，积极主动，能吃苦耐劳。自信心强。思想活跃。</p>
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="weibo"> </a></li>
+						<li><a href="#" class="renren"> </a></li>
+					</ul>
+				  </div>
+				</div>
+			   </div>
+			   <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //team -->
+<!-- liton -->
+	<div class="liton">
+		<div class="container">
+		  <div class="lton-inf">
+			<div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+					<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig">
+								<span> </span>
+							</div>
+							<div class="liton-info">
+								<h3>陈凯伦</h3>
+								<p>高年级教研主管</p>
+							</div>
+							<p class="tortor">中国青年政治学院中文系优秀毕业生，熟悉小学语文课程体系，多年教龄，所带学生成绩突出。毕业班多名学生成功考入重点中学。<br/>
+							多名学生在春蕾杯，高思杯，学而思杯中取得优异成绩。</p>
+						</div>
+					</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig1">
+								<span> </span>
+							</div>
+							<div class="liton-info">
+								<h3>王彩萍</h3>
+								<p>高级教师</p>
+							</div>
+							<p class="tortor">毕业于北京外国语学院，大学期间做了很多家教，深受家长学生喜爱。现已有4年教学经验。课堂纪律严格，但课堂氛围活跃，授课风格幽默风趣，有十足的亲和力。能够引起学生很强的兴趣和好奇心，善于把抽象知识化为形象例子，逐步引导学生学会思考，从而达到举一反三的效果。</p>
+						</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig2">
+								<span> </span>
+							</div>
+							<div class="liton-info">
+								<h3>冯长武</h3>
+								<p>专业英语教师</p>
+							</div>
+							<p class="tortor">高思英语激情派魅力名师，英语专业八级，高思新概念项目负责人。2012年被教委授予‘海淀区优秀教师’称号，同年荣获高思首届教师授课大赛英语组冠军，2013年荣获‘新浪五星金牌教师’殊荣。冯老师发音标准，对新概念、小升初教学有着深入研究，所教学生成绩都得到了很大的飞跃，在家长群中享有极高口碑！</p>
+						</div>
+						</div>
+					</article>
+					    <ul class="wmuSliderPagination">
+							<li><a href="#" class="">0</a></li>
+							<li><a href="#" class="">1</a></li>
+							<li><a href="#" class="wmuActive">2</a></li>
+						</ul>
+            </div>
+					<script src="js/jquery.wmuSlider.js"></script> 
+					  <script>
+						$('.example1').wmuSlider();         
+					 </script> 	  
+				</div>
+			</div>
+		  </div>
+	</div>
+<!-- //liton -->
+<!-- news -->
+	<div id="news" class="news">
+		<div class="container">
+			<h3>最新动态</h3>
+			<div class="news-grids">
+				<div class="col-md-5 news-grid">
+					<div class="news-grd">
+						<img src="images/demo2.jpg" alt=" " />
+						<div class="video">
+							<a href="#"><img src="images/8.png" alt=" " /></a>
+						</div>
+					</div>
+					<div class="news-grd-text">
+						<p class="date">2015-10-23</p>
+						<h4>为什么孩子们会在街上结束？</h4>
+						<p class="children">孩子们在街上的一个混合的
+							原因，虽然贫穷通常是在问题的核心。
+							在我们工作、冲突和贫穷的国家联合起来
+							逼孩子们走上街头。在许多情况下，一个孩子的家庭
+							再也不能再照顾他们，也可能需要他们的
+							有助于补充家庭收入，并帮助把食物放在桌子上。</p>
+						<div class="more1">
+							<a href="#" class="hvr-bounce-to-right">更多</a>
+						</div>
+						<div class="edit">
+							<p>Hasan</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7 news-grid">
+					<div class="news-income">
+						<div class="news-grid-left">
+							<img class="steel" src="images/demo3.jpg" alt=" " />
+							<div class="gallery">
+								<a href="#"><img src="images/9.png" alt=" " /></a>
+							</div>
+						</div>
+						<div class="news-grid-right">
+							<div class="news-grd-text1">
+								<p class="date">2015-11-01</p>
+								<h4>秋游被取消 小学生写信向区教育局长吐槽</h4>
+								<p class="children">遇到秋游突然取消，现在的孩子会怎么样？昨天，一位小学生就写信给“局长大人”，称“那条信息就像一把利剑一般刺穿了我的心”。</p>
+								<div class="more1">
+									<a href="#" class="hvr-bounce-to-right">更多</a>
+								</div>
+								<div class="edit">
+									<p>Litoon Dev</p>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="news-income">
+						<div class="news-grid-left">
+							<img class="steel" src="images/demo4.jpg" alt=" " />
+							<div class="gallery">
+								<a href="#"><img src="images/10.png" alt=" " /></a>
+							</div>
+						</div>
+						<div class="news-grid-right">
+							<div class="news-grd-text1">
+								<p class="date">2015-11-03</p>
+								<h4>小学生甩不掉的影子作业：每天过得像“打仗”</h4>
+								<p class="children">与以前的“留作业”相比，如今小学的“不留作业”，不仅没有减轻孩子的课业负担，反而让家长更加痛苦纠结。</p>
+								<div class="more1">
+									<a href="#" class="hvr-bounce-to-right">更多</a>
+								</div>
+								<div class="edit">
+									<p>Rabbani</p>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //news -->
+<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="container">
+			<div class="contact-header">
+				<h3>联系我们</h3>
+			</div>
+				<div class="map">
+					<div style="height:660px"></div>
+					<div class="map-color">
+						<div class="contact-info">
+							<h4>联系信息</h4>
+							<p>浙江省 宁波市 海曙区 苍松路229号,
+								<span>柳汀星座707室</span>
+								电话号码: 0574-87148925</p>
+							<span>
+								<input id="nicename" type="text" value="称呼" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '称呼';}" required="">
+								<input id="email" type="email" value="邮箱" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '邮箱';}" required="">
+								<input id="title" type="text" value="标题" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '标题';}" required="">
+								<textarea id="content" type="text"  onfocus="this.value = '';" onBlur="if (this.value == '') {this.value = '内容';}" required="">内容</textarea>
+								<input id="btnContact" type="submit" value="提交">
+							</span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+<!-- //contact -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="footer-grid-left">
+					<a href="index.html"><img src="images/footer-logo.png" alt=" " /></a>
+				</div>
+				<div class="footer-grid-center">
+					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates - Collect from </p>
+				</div>
+				<div class="footer-grid-right">
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="weibo"> </a></li>
+						<li><a href="#" class="renren"> </a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$('#btnContact').click(function(){
+				$.post('message',
+					{
+						nicename: $('#nicename').val(),
+						email: $('#email').val(),
+						title: $('#title').val(),
+						content: $('#content').val()
+					},
+					function(data){
+						alert(data);
+					});
+			});
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
